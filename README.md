@@ -1,6 +1,6 @@
 # CeraDNS+
 
-![CeraDNS](.\Assets\CeraDNS.png)
+![CeraDNS](./Assets/CeraDNS.png)
 
 为校园网提供优质的DNS解析服务，SNI列表转接及HTTP缓存的配置及工具分享
 
