@@ -1,0 +1,80 @@
+bind_host: 0.0.0.0
+bind_port: 5380
+auth_name: root
+# Please change the weak password !
+auth_pass: weakpassword
+language: ""
+dns:
+  bind_host: 0.0.0.0
+  port: 5353
+  protection_enabled: true
+  filtering_enabled: true
+  blocked_response_ttl: 10
+  querylog_enabled: true
+  ratelimit: 20
+  ratelimit_whitelist: []
+  refuse_any: true
+  bootstrap_dns:
+  - 1.1.1.1:53
+  all_servers: false
+  parental_sensitivity: 0
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  # Redirect DNS query to Pcap_DNSProxy
+  upstream_dns:
+  - 127.0.0.1:1053
+tls:
+  enabled: false
+  server_name: ""
+  force_https: false
+  port_https: 443
+  port_dns_over_tls: 853
+  certificate_chain: ""
+  private_key: ""
+filters:
+- enabled: true
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard Simplified Domain Names filter
+  id: 1
+- enabled: false
+  url: https://adaway.org/hosts.txt
+  name: AdAway
+  id: 2
+- enabled: false
+  url: https://hosts-file.net/ad_servers.txt
+  name: hpHosts - Ad and Tracking servers only
+  id: 3
+- enabled: false
+  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
+  name: MalwareDomainList.com Hosts List
+  id: 4
+- enabled: true
+  url: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt
+  name: Wind Passer AdBlock
+  id: 1555436185
+- enabled: true
+  url: http://sub.adtchrome.com/adt-chinalist-easylist.txt
+  name: ChinaList+EasyList(修正)
+  id: 1555436186
+- enabled: true
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  name: StevenBlack
+  id: 1555436187
+- enabled: true
+  url: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+  name: AdWar
+  id: 1555436188
+user_rules: []
+dhcp:
+  enabled: false
+  interface_name: ""
+  gateway_ip: ""
+  subnet_mask: ""
+  range_start: ""
+  range_end: ""
+  lease_duration: 0
+  icmp_timeout_msec: 0
+log_file: ""
+verbose: false
+schema_version: 3

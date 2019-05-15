@@ -1,0 +1,150 @@
+# WordPress Start
+(.*\.|)wp\.com$
+(.*\.|)w\.org$
+(.*\.|)wordpress\.com$
+(.*\.|)gravatar\.com$
+# WordPress End
+
+# Wikipedia Start
+(.*\.|)wikipedia\.org$
+# Wikipedia End
+
+# Twitter Start
+(.*\.|)twimg\.com$
+(.*\.|)tinypic\.com$
+(.*\.|)twitpic\.com$
+(.*\.|)twitter\.com$
+(.*\.|)tweetdeck\.com$
+(.*\.|)t\.co$
+# Twitter End
+
+
+# Comment: Disabled temporarily due to anti-proxy policy of Facebook
+#
+# Facebook Start
+# www.fb.com
+# fb.com
+# fb.me
+# thefacebook.com
+# www.thefacebook.com
+# (.*\.|)facebook\.com$
+# (.*\.|)fbstatic\.com$
+# (.*\.|)fbcdn\.net$
+# Facebook End
+
+# Flickr Start
+(.*\.|)flickr\.com$
+(.*\.|)staticflickr\.com$
+# Flickr End
+
+# bit.ly Start
+bitly\.com$
+bit\.ly$
+# bit.ly End
+
+# Reddit Start
+(.*\.|)reddit\.com$
+(.*\.|)redd\.it$
+(.*\.|)redditgifts\.com$
+(.*\.|)redditmedia\.com$
+# Reddit End
+
+# Google Start
+(.*\.|)googleapis\.com$
+(.*\.|)google\.com$
+(.*\.|)google\.co\.jp$
+(.*\.|)google\.com\.hk$
+(.*\.|)google\.com\.tw$
+(.*\.|)youtube\.com$
+(.*\.|)ytimg\.com$
+(.*\.|)googlevideo\.com$
+(.*\.|)googlehosted\.com$
+(.*\.|)googleusercontent\.com$
+(.*\.|)ggpht\.com$
+(.*\.|)googlemail\.com$
+(.*\.|)googlecode\.com$
+(.*\.|)googledrive\.com$
+(.*\.|)blogspot\.com$
+(.*\.|)appspot\.com$
+(.*\.|)gmail\.com$
+(.*\.|)googlezip\.net$
+(.*\.|)blogger\.com$
+# Google End
+
+# Ingress Start
+(.*\.|)panoramio.com$
+# Ingress End
+
+# Imgur Start
+(.*\.|)imgur\.com$
+# Imgur End
+
+# Amazon AWS Start
+(.*\.|)amazonaws\.com$
+# Amazon AWS End
+
+# Instagram Start
+(.*\.|)instagram\.com$
+(.*\.|)cdninstagram\.com$
+# Instagram End
+
+# Telegram Start
+(.*\.|)telegram\.org$
+telegram\.me$
+t\.me$
+updates\.tdesktop\.com$
+(.*\.|)telesco\.pe$
+(.*\.|)telegra\.ph$
+# Telegram End
+
+# CDN Start
+github\.global\.ssl\.fastly\.net$
+cdn\.sstatic\.net$
+(.*\.|)akamaihd\.net$
+(.*\.|)cloudfront\.net$
+# CDN End
+
+# Pinterest Start
+(.*\.|)pinterest\.com$
+(.*\.|)pinimg\.com$
+# Pinterest End
+
+# Theinitium Start
+theinitium\.com$
+stigma\.theinitium\.com$
+api\.theinitium\.com$
+# Theinitium End
+
+# BBC Start
+(.*\.|)bbc\.com$
+(.*\.|)bbc\.co\.uk$
+(.*\.|)bbci\.co\.uk$
+# BBC End
+
+# Medium Start
+(.*\.|)medium\.com$
+# Medium End
+
+# Tumblr Start
+tumblr\.com$
+(.*\.|)tumblr\.com$
+(.*\.|)tumblr\.co$
+# Tumblr End
+
+# Reddit Start
+(.*\.|)reddit\.com$
+(.*\.|)redditmedia\.com$
+(.*\.|)redd\.it$
+www\.redditstatic\.com$
+www\.reddithelp\.com$
+# Reddit End
+
+# WhatsApp Start
+(.*\.|)whatsapp\.net$
+(.*\.|)whatsapp\.com$
+# WhatsApp End
+
+# WSJ Start
+(.*\.|)wsj\.com$
+(.*\.|)wsj\.net$
+# WSJ End
