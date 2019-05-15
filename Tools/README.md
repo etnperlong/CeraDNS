@@ -48,7 +48,7 @@
 
 从APNIC更新并生成最新中国大陆境内路由表
 
-**usage: bash Update_Routing.sh **
+**usage: bash Update_Routing.sh**
 
 ## Update_WhiteList.sh
 
@@ -56,4 +56,4 @@
 
 从[dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)项目更新并生成最新中国大陆域名白名单
 
-**usage: bash Update_Routing.sh **
+**usage: bash Update_Routing.sh**
