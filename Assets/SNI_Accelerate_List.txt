@@ -148,3 +148,12 @@ www\.reddithelp\.com$
 (.*\.|)wsj\.com$
 (.*\.|)wsj\.net$
 # WSJ End
+
+# Archive Start
+(.*\.|)archive\.fo$
+(.*\.|)archive\.is$
+(.*\.|)archive\.li$
+(.*\.|)archive\.org$
+(.*\.|)archive\.today$
+# Archive End
+
